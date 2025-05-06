@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-    base: '/baxter_web',
+    base: '/baxter_web/',
     build: {
         outDir: 'dist',
         assetsDir: 'assets' // 确保资源路径正确

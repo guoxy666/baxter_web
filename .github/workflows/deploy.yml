@@ -26,4 +26,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          destination_dir: ./baxter_web  # 关键！保持与base路径一致
+          keep_files: false  # 自动清理旧文件
